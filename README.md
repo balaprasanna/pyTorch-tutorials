@@ -23,3 +23,14 @@ Now we need to find w which minimizes the loss
 ```
 argmin loss(w)
 ```
+
+The best way to decide is to compute this gradient
+Gradient:
+![Gradient](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cpartial%20loss%7D%7B%5Cpartial%20w%7D)
+
+<!--- \frac{\partial loss}{\partial w}  -->
+
+Weight updates:
+![Weight Updates](http://latex.codecogs.com/gif.latex?w%20%3D%20w%20-%20%5Calpha%20%5Cfrac%7B%5Cpartial%20loss%7D%7B%5Cpartial%20w%7D)
+
+<!--- w = w - \alpha  \frac{\partial loss}{\partial w}  -->
