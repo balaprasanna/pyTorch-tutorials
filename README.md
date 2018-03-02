@@ -18,3 +18,8 @@ loss(w)=\frac{1}{N}\sum_{n=1}^{N}( \hat{y}_{n} - y_{n} ))
 ![Yhat](http://latex.codecogs.com/gif.latex?%5Chat%7By%7D%3D%28x%20*%20w%29)
 
 <!---  \hat{y}=(x * w) -->
+
+Now we need to find w which minimizes the loss
+```
+argmin loss(w)
+```
